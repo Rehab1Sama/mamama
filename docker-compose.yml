@@ -3,7 +3,6 @@ services:
   app:
     container_name: srcbot
     build: .
-    command: /Dockerfile
     environment:
       API_ID: $API_ID
       API_HASH: $API_HASH
