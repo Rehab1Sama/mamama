@@ -1,10 +1,11 @@
 version: "3.3"
 
 services:
-  app:
-    container_name: srcbot
+
+  worker:
+
     build: .
-    command: bash bash.sh
+
     environment:
       API_ID: $API_ID
       API_HASH: $API_HASH
